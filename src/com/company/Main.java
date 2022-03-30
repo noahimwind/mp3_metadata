@@ -8,5 +8,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
 	    MP3TAGs x = new MP3TAGs();
         x.auslesen();
+        System.out.println(x);
     }
 }
