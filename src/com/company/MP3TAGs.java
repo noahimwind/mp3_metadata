@@ -5,9 +5,9 @@ import java.io.*;
 public class MP3TAGs {
     // Die Meta-Informationen einer mp3-Datei sind in den letzten 128 Byte – dem sog. ID3v1-Tag
     //String path = "C:\\Users\\noah.duerkes\\Documents\\SWD_CD\\m1";
-    //File x = new File("C:\\Users\\noah.duerkes\\Documents\\SWD_CD\\m1.mp3");
+    //File x = new File("C:\\Users\\noah.duerkes\\Documents\\SWD_CD\\m1.mp3");  //ATIW Rechner
     File x = new File("C:\\Users\\noahd\\Documents\\SWD\\m1.mp3");  //Laptop
-    File g = new File("C:\\Users\\noahd\\Documents\\SWD\\genres.txt");
+    File g = new File("C:\\Users\\noahd\\Documents\\SWD\\genres.txt");  //File 2 Laptop
     RandomAccessFile raf = null;
     String header;  // 3 Byte
     String title;   // 30 Byte
